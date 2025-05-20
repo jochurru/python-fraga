@@ -35,3 +35,16 @@ for i in range (5):
 
 print(f"El total de numeros mayores a 5 es: {contador_max}")
 print(f"El total de numeros menores a 5 es: {contador_min}")
+
+#Ejercicio 3
+maximo=0
+minimo=999
+
+for i in range(5):
+    num2=int(input("Ingrese un numero: "))
+    if num2 > maximo:
+        maximo=num2
+    if num2 < minimo:
+        minimo=num2
+print(f"El numero maximo es: {maximo}")
+print(f"El numero minimo es: {minimo}")
