@@ -1,4 +1,5 @@
 #trabajo practico numero 2
+#Ejercicio 1
 suma=0
 contador=0
 nro=0
@@ -15,3 +16,22 @@ for i in range(1,6):
         print(f"El contador es: {contador2}")
 print(f"El total de numeros mayores a 5 es: {contador}")
 print(f"El total de numeros menores a 5 es: {contador2}")
+
+#Ejercicio 2
+contador_max=0
+contador_min=0
+nro1=0
+maximo=5
+for i in range (5):
+    nro1=int(input("Ingrese un numero: "))
+    if nro1 > maximo:
+        maximo=nro1
+        contador_max=contador_max+1
+        print(f"El contador es: {contador_max}")
+    else:
+        if nro1 < maximo:
+            contador_min=contador_min+1
+            print(f"El contador es: {contador_min}")
+
+print(f"El total de numeros mayores a 5 es: {contador_max}")
+print(f"El total de numeros menores a 5 es: {contador_min}")
