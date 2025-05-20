@@ -22,13 +22,16 @@ for _ in range(5):
 print("Promedio:", suma / 5)
 
 # Ejercicio 4
-suma = 0
+suma=0
+
 for i in range(5):
-    num = int(input("Ejercicio 4 - Ingrese un número PAR: "))
-    while num % 2 != 0:
-        num = int(input("No es par. Ingrese un número PAR: "))
-    suma += num
-print("Suma de los números pares:", suma)
+    i=int(input("Ingrese un numero par: "))
+    print("Ingresaste el numero:", i)
+    if i %2!=0:
+        print("El numero es impar, reingrese un numero par")
+    else:
+        suma+=i
+print("La suma de los numeros pares es:", suma)
 
 # Ejercicio 5
 contador = 0
