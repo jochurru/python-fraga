@@ -227,9 +227,9 @@ def buscar_por_lanzamiento():
         anio_lanzamiento=int(input("Ingrese el año de lanzamiento a buscar: "))
         resultados={clave:valor for clave,valor in stock.items() if valor['Lanzamiento']==anio_lanzamiento}
         if resultados:
-          print(f"\n Productos lanzados en el año {anio_lanzamiento}: \n")
+            print(f"\n Productos lanzados en el año {anio_lanzamiento}: \n")
 
-          for nombre, datos in resultados.items():
+        for nombre, datos in resultados.items():
             print(f"Nombre: {nombre.title()} | Lanzamiento: {datos['Lanzamiento']}")
         else:
             print(f"No se encontraron peliculas lanzadas en el año {anio_lanzamiento}.\n")
@@ -262,8 +262,7 @@ def menu_busqueda():
             else:
                 print("Opcion no valida, por favor ingrese un numero de 1 a 5")
         except ValueError:
-            print("Error: Debe ingresar un valor numerico!\n")
-           
+            print("Error: Debe ingresar un valor numerico!\n")           
 # Se define la función 1 - "Alta de productos nuevos"
 def alta_producto():
     titulo = "***AGREGAR PRODUCTOS AL CATALOGO***"
