@@ -11,6 +11,7 @@ saludar= datos_personales()
 print(f"Hola {saludar[0]} {saludar[1]}, tienes {saludar[2]} años de edad")
 
 #--------------------------------------------------------------------------------------------
+# Sumar dos números
 def suma(a, b):
     resultado = a + b
     return resultado
