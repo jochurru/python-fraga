@@ -1,5 +1,5 @@
 """
-Ejemplo 1 
+Ejercicio 1 
 Escribí un programa que obtenga la fecha y hora actual del sistema y la muestre por
 pantalla.
 """

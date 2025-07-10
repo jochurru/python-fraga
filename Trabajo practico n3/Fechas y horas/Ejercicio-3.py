@@ -1,5 +1,5 @@
 """
-Ejemplo 3
+Ejercicio 3
 Pedile al usuario que ingrese su fecha de nacimiento con el formato dd/mm/aaaa
 y calculá su edad actual en años.
 

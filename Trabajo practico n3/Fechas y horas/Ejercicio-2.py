@@ -1,5 +1,5 @@
 """
-Ejemplo 2:
+Ejercicio 2:
 Modificá el programa anterior para que muestre únicamente la fecha (sin la hora).
 
 """
