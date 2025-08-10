@@ -7,4 +7,3 @@ for i in range(5):
 palabra = ''.join(letras)
 print("La palabra formada es: ", palabra)
 # Fin del ejercicio
-# Fin del ejercicio
